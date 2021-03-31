@@ -13,6 +13,5 @@ Plays a sound when streamer name is in chat
 1. Remove HTML code
 1. Remove CSS code
 1. Paste `index.json` content in fields code
-1. Compile `index.js` into `bundle.js` with browserify (just do `make build` if docker and makefile are both installed)
-1. Paste `bundle.js` content in JS code
+1. Paste `index.js` content in JS code
 
