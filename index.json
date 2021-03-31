@@ -1,0 +1,14 @@
+{
+  "audioUrl": {
+    "type": "sound-input",
+    "label": "Audio played on streamer name call"
+  },
+  "audioVolume": {
+    "type": "slider",
+    "label": "Audio volume",
+    "value": 50,
+    "min": 0,
+    "max": 100,
+    "step": 5
+  }
+}
