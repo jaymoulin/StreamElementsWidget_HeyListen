@@ -12,7 +12,7 @@ window.addEventListener('onEventReceived', function (obj) {
 
     let message = data["text"];
     let words = message.split(" ").map(value => value.toLowerCase());
-    if (!words.includes(channelName)) return;
+    if (!words.includes(channelName) && !words.includes('@' + channelName)) return;
     console.log("Playing audio", audioUrl);
     try {
         let audio = new Audio();
